@@ -1,0 +1,28 @@
+# Python-related files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+
+# Environment variable files
+.env
+
+# VS Code related files
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+text
