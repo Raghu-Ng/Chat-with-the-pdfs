@@ -93,8 +93,8 @@ def main():
         handle_userinput(user_question)
 
 
-    st.write(user_template.replace("{{MSG}}", "Hi, I am Raghav"), unsafe_allow_html=True)
-    st.write(bot_template.replace("{{MSG}}", "Hi, I am a bot"), unsafe_allow_html=True)
+    # st.write(user_template.replace("{{MSG}}", "Hi, I am Raghav"), unsafe_allow_html=True)
+    # st.write(bot_template.replace("{{MSG}}", "Hi, I am a bot"), unsafe_allow_html=True)
 
     
     with st.sidebar:
